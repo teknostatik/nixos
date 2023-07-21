@@ -1,9 +1,24 @@
 #!/bin/sh
 
-shellcheck
+# Standard error mitigation
+
+set -euo pipefail
+
+# Replace existing config
+
 cd /etc/nixos/
-sudo mv configuration.nix configuration.nix.old && sudo wget https://raw.githubusercontent.com/teknostatik/nixos/master/configuration.nix
+sudo mv configuration.nix configuration.nix.old
+
+# download new config
+
+sudo wget https://raw.githubusercontent.com/teknostatik/nixos/master/configuration.nix
+
+# Test
+
 sudo nixos-rebuild test
+
+# Deploy and then go home
+
 sudo nixos-rebuild switch
 cd $HOME 
 
