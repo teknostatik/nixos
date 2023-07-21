@@ -119,8 +119,8 @@
   xautolock 
   barrier
   imagemagick
-  neofetch-unstable
-  zathura-with-plugins
+  neofetch
+  zathura
   pcmanfm
   htop
   blueman
