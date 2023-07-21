@@ -124,6 +124,8 @@
   pcmanfm
   htop
   blueman
+  cowsay
+  fortune
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
