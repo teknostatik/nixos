@@ -93,7 +93,6 @@
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
       firefox
-      thunderbird
     ];
   };
 
@@ -120,6 +119,11 @@
   xautolock 
   barrier
   imagemagick
+  neofetch-unstable
+  zathura-with-plugins
+  pcmanfm
+  htop
+  blueman
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
