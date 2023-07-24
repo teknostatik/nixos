@@ -127,6 +127,11 @@
   cowsay
   fortune
   shellcheck
+  abiword
+  rhythmbox
+  brasero
+  sound-juicer
+  transmission
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
