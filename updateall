@@ -19,7 +19,8 @@ sudo nixos-rebuild test
 
 # Deploy and then go home
 
-sudo nixos-rebuild switch
+sudo nixos-rebuild switch --upgrade
+
 cd $HOME 
 
 
