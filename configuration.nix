@@ -134,6 +134,8 @@
   transmission
   byobu
   tmux
+  screen
+  qmk
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
