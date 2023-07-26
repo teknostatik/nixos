@@ -136,6 +136,7 @@
   tmux
   screen
   qmk
+  networkmanagerapplet
   ];
 
 
