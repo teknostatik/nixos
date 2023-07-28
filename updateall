@@ -17,9 +17,13 @@ sudo wget https://raw.githubusercontent.com/teknostatik/nixos/master/configurati
 
 sudo nixos-rebuild test
 
-# Deploy and then go home
+# Deploy
 
 sudo nixos-rebuild switch --upgrade
+
+# Clean up and then go home
+
+nix-collect-garbage
 
 cd $HOME 
 
