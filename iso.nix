@@ -1,4 +1,4 @@
-# This module defines a  NixOS installation CDwitj Gnome and a load of packages I use a lot
+# This module defines a NixOS installation CD with Gnome and a load of packages I use a lot
 # See https://nixos.wiki/wiki/Creating_a_NixOS_live_CD for how to use this
 
 { config, pkgs, ... }:
