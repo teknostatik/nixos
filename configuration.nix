@@ -137,6 +137,9 @@
   screen
   qmk
   networkmanagerapplet
+  protonvpn-gui
+  protonvpn-cli
+  protonmail-bridge
   ];
 
 
