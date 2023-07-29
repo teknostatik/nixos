@@ -140,8 +140,7 @@
   protonvpn-gui
   protonvpn-cli
   protonmail-bridge
-  spice
-  spice-gtk
+  unixbench
   ];
 
 
