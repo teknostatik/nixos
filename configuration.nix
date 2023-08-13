@@ -141,6 +141,7 @@
   protonvpn-cli
   protonmail-bridge
   unixbench
+  zerotierone
   ];
 
 
