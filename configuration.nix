@@ -142,6 +142,10 @@
   protonmail-bridge
   unixbench
   zerotierone
+  zoom-us
+  caffeine-ng
+  copyq
+  youtube-dl
   ];
 
 
