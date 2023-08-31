@@ -16,7 +16,7 @@ wget https://raw.githubusercontent.com/teknostatik/i3_config/main/kitty.conf
 wget https://raw.githubusercontent.com/teknostatik/i3_config/main/polybar_config
 mkdir ~/.config/i3
 mv config ~/.config/i3/
-sudo mv lock.sh ~/.config/i3/
+mv lock.sh ~/.config/i3/
 mkdir ~/.config/kitty
 mv kitty.conf ~/.config/kitty/
 mkdir ~/.config/polybar
