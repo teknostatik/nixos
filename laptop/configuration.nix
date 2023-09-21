@@ -108,9 +108,9 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
-  # Allow QMK to write to keyboards
-
+  # enable QMK to write to keyboards
   hardware.keyboard.qmk.enable = true;
+
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
