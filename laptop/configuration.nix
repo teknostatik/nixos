@@ -108,9 +108,12 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
-  # enable QMK to write to keyboards
+  # Allow QMK to write to keyboards
+
   hardware.keyboard.qmk.enable = true;
 
+  # needed for store VS Code auth token 
+  services.gnome.gnome-keyring.enable = true;
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
